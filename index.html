@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Ismael C. Salvador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Link para ícones (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de Navegação Fixa -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1><a href="#inicio">MeuPortfólio</a></h1>
+            </div>
+            
+            <!-- Menu Desktop -->
+            <ul class="nav-menu">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            
+            <!-- Botão Tema Claro/Escuro -->
+            <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+            
+            <!-- Menu Hambúrguer para Mobile -->
+            <button class="hamburger" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Inicial -->
+        <section id="inicio" class="section inicio">
+            <div class="container">
+                <div class="intro-content">
+                    <h2>Olá, eu sou <span class="highlight">Ismael C. Salvador</span></h2>
+                    <p>ESTUDANTE DE TECNOLOGIA EM BANCO DE DADOS</p>
+                    <a href="#sobre" class="btn">Conheça meu trabalho</a>
+                </div>
+                <div class="intro-image">
+                    <img src="img/WhatsApp Image 2025-05-24 at 19.06.59.jpeg" alt="Foto de perfil">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="section sobre">
+            <div class="container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="sobre-content">
+                    <div class="sobre-texto">
+                        <p>Sou um desenvolvedor web em formação, apaixonado por tecnologia e criação de soluções digitais. Atualmente estudo Tecnologia em Banco de dados e busco constantemente aprimorar minhas habilidades.</p>
+                        
+                        <h3>Hobbies e Interesses</h3>
+                        <ul class="hobbies">
+                            <li><i class="fas fa-code"></i> Programação e desenvolvimento de software</li>
+                            <li><i class="fas fa-futbol"></i> Esportes</li>
+                            <li><i class="fas fa-book"></i> Leitura</li>
+                            <li><i class="fas fa-music"></i> Música</li>
+                            <li><i class="fas fa-film"></i> Cinema</li>
+                        </ul>
+                        
+                        <p>Meu objetivo é me tornar um desenvolvedor full-stack, criando aplicações web que façam a diferença na vida das pessoas.</p>
+                    </div>
+                    <div class="sobre-info">
+                        <div class="info-card">
+                            <h3>Informações Pessoais</h3>
+                            <ul>
+                                <li><strong>Nome:</strong> Ismael Ceolin Salvador</li>
+                                <li><strong>Idade:</strong> 37 anos</li>
+                                <li><strong>Cidade:</strong> Governador Celso Ramos, SC</li>
+                                <li><strong>Email:</strong> ismaelsalvador@hotmail.com</li>
+                                <li><strong>Disponibilidade:</strong> Aberto a novas oportunidades</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Formação -->
+        <section id="formacao" class="section formacao">
+            <div class="container">
+                <h2 class="section-title">Formação Acadêmica</h2>
+                
+                <div class="formacao-grid">
+                    <!-- Educação -->
+                    <div class="formacao-categoria">
+                        <h3><i class="fas fa-graduation-cap"></i> Educação Formal</h3>
+                        <div class="formacao-item">
+                            <h4>Tecnico em Banco de Dados</h4>
+                            <p class="instituicao">Uninter</p>
+                            <p class="periodo">2025 - Cursando</p>
+                            <p>Graduação em Tecnologia em banco de Dados.</p>
+                        </div>
+                        
+                        <div class="formacao-item">
+                            <h4>Técnico em Informática</h4>
+                            <p class="instituicao">SENAC</p>
+                            <p class="periodo">2014 - 2015</p>
+                            <p>Curso técnico com foco em manutenção de computadores, redes e programação básica.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Cursos Complementares -->
+                    <div class="formacao-categoria">
+                        <h3><i class="fas fa-certificate"></i> Cursos Complementares</h3>
+                        <div class="formacao-item">
+                            <h4>Fundamentos da Programação Web</h4>
+                            <p class="instituicao">Senai</p>
+                            <p class="periodo">2024</p>
+                            <p>HTML5, CSS3, JavaScript, versionamento com Git e publicação de sites.</p>
+                        </div>
+                        
+                        <div class="formacao-item">
+                            <h4>Desenvolvimento de Sistemas</h4>
+                            <p class="instituicao">Plataforma Online</p>
+                            <p class="periodo">2023</p>
+                            <p>Desenvolvimento de software, bancos de dados e desenvolvimento de aplicações web.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Idiomas -->
+                <div class="idiomas">
+                    <h3><i class="fas fa-language"></i> Idiomas</h3>
+                    <div class="idiomas-grid">
+                        <div class="idioma-item">
+                            <h4>Português</h4>
+                            <p>Nativo</p>
+                            <div class="nivel"><span style="width: 100%"></span></div>
+                        </div>
+                        <div class="idioma-item">
+                            <h4>Inglês</h4>
+                            <p>Básico</p>
+                            <div class="nivel"><span style="width: 25%"></span></div>
+                        </div>
+                        <div class="idioma-item">
+                            <h4>Espanhol</h4>
+                            <p>Básico</p>
+                            <div class="nivel"><span style="width: 25%"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio -->
+        <section id="portfolio" class="section portfolio">
+            <div class="container">
+                <h2 class="section-title">Meu Portfólio</h2>
+                <p class="section-subtitle">Confira alguns dos meus projetos desenvolvidos</p>
+                
+                <div class="portfolio-grid">
+                    <!-- Projeto 1 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="img/Captura de tela 2025-12-08 201036.png" alt="Site de E-commerce">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Site de Estudos</h3>
+                            <p>Site desenvolvido com HTML e CSS para estudos front-end.</p>
+                            <div class="portfolio-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+                            <a href="https://github.com/ismaelgex/Gex.git" target="_blank" class="portfolio-link">
+                                <i class="fab fa-github"></i> Ver código
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto 2 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="img/Captura de tela 2025-12-08 203804.png" alt="Dashboard de Análise">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Site de Anúncios</h3>
+                            <p>Site desenvolvido para atividade extensionista. Site de anúcios para pequenos produtores.</p>
+                            <div class="portfolio-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="https://ismaelceolin.github.io/AgroGestor/" target="_blank" class="portfolio-link">
+                                <i class="fab fa-github"></i> Ver código
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="section contato">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Envie sua mensagem e retornarei o mais breve possível</p>
+                
+                <div class="contato-content">
+                    <!-- Formulário de Contato -->
+                    <form id="form-contato" class="contato-form">
+                        <div class="form-group">
+                            <label for="nome">Nome completo *</label>
+                            <input type="text" id="nome" name="nome" required>
+                            <div class="error-message" id="nome-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            <div class="error-message" id="mensagem-error"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn submit-btn">Enviar Mensagem</button>
+                    </form>
+                    
+                    <!-- Informações de Contato -->
+                    <div class="contato-info">
+                        <h3>Outras formas de contato</h3>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>ismaelsalvador@hotmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/ismaelceolin</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/ismaelcsalvador/</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Governador Celso Ramos, SC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>MeuPortfólio</h2>
+                    <p>Desenvolvido com HTML5, CSS3 e JavaScript</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Navegação</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre Mim</a></li>
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/ismaelceolin" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/ismaelcsalvador" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://outlook.live.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ismael C. Salvador. Todos os direitos reservados.</p>
+                <p>Atividade Prática - Fundamentos da Programação Web</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Confirmação (oculto inicialmente) -->
+    <div id="modal-confirmacao" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-check-circle"></i> Mensagem Enviada!</h2>
+            <p>Sua mensagem foi enviada com sucesso. Retornarei em breve.</p>
+            <button class="btn modal-btn">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
